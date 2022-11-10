@@ -1,0 +1,186 @@
+/* PAGE 1 */
+body{
+	font-family: EB Gardmond
+}
+/* Nav Bar */
+
+#div1{
+	background-color: rgba(0, 0, 0, 0.75);
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 4;
+}
+
+.nav_content{
+	text-decoration: none;
+	color: white;
+	text-shadow: 1.25px 1.25px  black;
+	position: relative;
+	left: 300px;
+	font-size: 20px;
+	margin-left: 20px;
+	font-family: EB Garamond;
+}
+
+.nav_sighn{
+	text-decoration: none;
+	color: white;
+	text-shadow: 1.25px 1.25px  black;
+	position: relative;
+	bottom: 40px;
+	font-size: 22px;
+	font-family: EB Garamond;
+	margin-left: 50px;
+}
+
+#nav_div{
+	margin-left: 700px;
+}
+
+/* Fade Images 1 */
+
+@keyframes fade{
+	0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+section {
+  position: relative;
+}
+
+section  img {
+  position: absolute;
+}
+
+.top {
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+/* Welcome */
+
+#div2{
+	background: url("https://www.aromafineindian.com/restaurants/aroma/website/images/wood-dark.jpg?1665534763");
+	color: white;
+	text-align: center;
+    position: relative;
+    top: 600px;
+}
+
+.text1{
+	color: #d6cac2;
+	font-family:EB Garamond;
+	margin-left: 100px;
+	text-align: left;
+
+}
+
+.flex{
+	display: flex;
+}
+
+#section2{
+	right: 712px
+}
+
+/* PAGE 2 */
+#menu_body{
+	background: url(https://www.aromafineindian.com/restaurants/aroma/website/images/wood-dark.jpg?1665534763);
+	font-family: EB Garamond;
+}
+/* Menu */
+
+
+
+#menu{
+	position: relative;
+	top: 250px;
+	color: white;
+}
+
+h1{
+	text-align: center;
+}
+
+#title{
+	position: relative;
+	bottom: 25px;
+	color:#9c7c38;
+	text-align: center;
+	left: 75px;
+	font-size: 30px;
+}
+
+#appetizers{
+	position: relative;
+	top: 50px;
+	margin: 20px;
+}
+
+#title2{
+	font-size: 30px;
+	position: relative;
+	top: 150px;
+	color:#9c7c38;
+	left: 75px;
+}
+
+#veg{
+	position: relative;
+	left: 75px;
+	margin: 60px;
+}
+
+/* PAGE 3 */
+
+#images{
+	width: 400px;
+	position:relative;
+	left: 100px;
+}
+
+#images:hover{
+	transform: scale(1.1);
+	z-index: 4;
+}
+
+/* PAGE 4 */
+
+#menu_contact{
+	background: url(https://www.aromafineindian.com/restaurants/aroma/website/images/wood-dark.jpg?1665534763);
+	font-family: EB Garamond;
+	position: relative;
+	top: 150px;
+}
+
+#ctitle{
+	color: white;
+	font-size: 40px;
+}
+
+/* PAGE 5 */
+#contact{
+	background: rgba(255, 255, 255, 0.1);
+	width: fit-content;
+}
+
+#map{
+	position: relative;
+	left: 350px;
+}
